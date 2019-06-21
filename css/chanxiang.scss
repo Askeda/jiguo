@@ -1,0 +1,56 @@
+.first{width: 100%;background-image: url(../img/original.jpg);background-repeat: no-repeat;height: 300px;}
+.xiaobei{width: 300px;margin-left: 1040px;padding-top: 47px;}
+.xiaobei p{color: white;font-size: 30px;}
+.xiaobei1{width: 350px;margin-left: 1030px;margin-top: 10px;}
+.xiaobei1 ul{display: flex;justify-content: space-around;}
+.xiaobei1 ul li{width: 100px;height: 30px;line-height: 30px;text-align: center;background-color: #f8d198;color: white;}
+.xiaobei2{width: 300px;margin-left: 1040px;margin-top: 30px; font-size: 18px;color: white;}
+.xiaobei3{width: 200px;background-color: red;text-align: center;height: 50px;line-height: 50px;color: white;margin-left: 1040px;margin-top: 30px;}
+
+
+
+.liucheng_box{
+    width: 100%;
+   
+    background-color: #f0f0f0;
+    .liucheng_nav{
+        width: 1200px;
+        margin: auto;
+      
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+               width: 190px;
+                height:73px;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    margin-left: 55px;
+                }
+            }
+        }
+    }
+}
+
+.jieshao_box{
+    width: 1200px;
+    margin: auto;
+ 
+    ul{
+        display: flex;
+        justify-content: space-around;
+        li{
+           
+        }
+    }
+}
+.hot{width: 1200px;margin-left: 155px;}
+.hot_shiyong{width: 1200px;margin-left: 122px;}
+.hot_shiyong ul{display: flex;justify-content: space-around;}
+.hot_shiyong ul li{}
+.hot_shiyong ul li img{width: 180px;height:150px;}
+
+.mianbao{width: 180px;/*background-image: url(../img/hot9.jpg);background-repeat: no-repeat;*/}
+.shoufa{width: 50px;background-color: red;height: 30px;line-height: 30px;text-align: center;color: white;display: block;border: 1px solid red;border-top-right-radius: 10px;border-bottom-left-radius: 10px;margin-left: 183px;position: absolute;margin-top: -154px;}
+.tiyan{width: 100px;background-color: #fbf4ca;height: 30px;line-height: 30px;text-align: center;color: #d2d0a7;display: block;border-top-right-radius: 10px;border-bottom-left-radius: 10px;margin-left: 135px;position: absolute;margin-top: -154px;}

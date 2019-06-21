@@ -1,0 +1,107 @@
+.shiyong_nav {
+  width: 300px;
+  margin: auto; }
+  .shiyong_nav ul {
+    display: flex;
+    justify-content: space-around; }
+    .shiyong_nav ul li {
+      cursor: pointer;
+      width: 100px; }
+      .shiyong_nav ul li .dazhong, .shiyong_nav ul li .tiyanshi {
+        font-size: 13px;
+        color: #b1becf;
+        text-align: center;
+        display: block; }
+      .shiyong_nav ul li .xiabiaodiv, .shiyong_nav ul li .xiabiaodiv1 {
+        width: 100px;
+        height: 3px;
+        background-color: #fd5238;
+        display: none; }
+
+.fei_nav {
+  width: 800px;
+  margin: auto; }
+  .fei_nav ul {
+    display: flex;
+    justify-content: space-around; }
+    .fei_nav ul li {
+      color: #8da6ad;
+      cursor: pointer; }
+
+.dazhong_box {
+  width: 100%;
+  background-color: #f7f7f7; }
+
+.tizhuan {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: none; }
+
+.hot_shiyong ul {
+  display: flex;
+  justify-content: space-around; }
+
+.hot_shiyong ul li {
+  border: 1px solid black; }
+
+.hot_shiyong ul li img {
+  width: 180px;
+  height: 150px; }
+
+.mianbao {
+  width: 180px;
+  /*background-image: url(../img/hot9.jpg);background-repeat: no-repeat;*/ }
+
+.shoufa {
+  width: 50px;
+  background-color: red;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  display: block;
+  border: 1px solid red;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 183px;
+  position: absolute;
+  margin-top: -154px; }
+
+.tiyan {
+  width: 100px;
+  background-color: #fbf4ca;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #d2d0a7;
+  display: block;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 135px;
+  position: absolute;
+  margin-top: -154px; }
+
+.asd {
+  width: 200px;
+  margin: auto;
+  cursor: pointer; }
+
+.feifei {
+  display: none; }
+
+.shouqi {
+  width: 100px;
+  margin: auto; }
+  .shouqi span {
+    cursor: pointer; }
+
+.shenqing {
+  display: none; }
+
+.shiyongzhong {
+  display: none; }
+
+.yijieshu {
+  display: none; }
+
+/*# sourceMappingURL=mianfei.css.map */

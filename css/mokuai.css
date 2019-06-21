@@ -1,0 +1,210 @@
+.faxina {
+  width: 1200px;
+  margin: auto; }
+  .faxina p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center; }
+
+.mainnav {
+  width: 500px;
+  margin: auto; }
+  .mainnav ul {
+    display: flex;
+    justify-content: space-around; }
+    .mainnav ul li {
+      width: 150px; }
+      .mainnav ul li p {
+        color: #bebbcc;
+        text-align: center;
+        cursor: pointer; }
+      .mainnav ul li .xiabiao, .mainnav ul li .xiabiao1, .mainnav ul li .xiabiao2 {
+        width: 150px;
+        background-color: #fd5238;
+        height: 3px;
+        display: none; }
+
+.kuwan_box {
+  width: 100%;
+  background-color: #f7f7f7; }
+
+.kuwan_box_main {
+  width: 1200px;
+  margin: auto; }
+
+.kuwan_box_main ul {
+  display: flex;
+  justify-content: space-around; }
+
+.kuwan_box_main ul li {
+  border: 1px solid #efefef;
+  border-radius: 5px; }
+
+.kuwan_box_main ul img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.dian_box {
+  width: 200px;
+  margin: auto;
+  cursor: pointer; }
+
+.nn {
+  display: none; }
+
+.kuwan_box1 {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: none;
+  display: none; }
+
+.dian_box1 {
+  width: 200px;
+  margin: auto;
+  cursor: pointer; }
+
+.pin_box {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: none; }
+  .pin_box .mainlife {
+    width: 1200px;
+    margin: auto;
+    background-color: white; }
+    .pin_box .mainlife .life {
+      width: 100px; }
+    .pin_box .mainlife .life_one {
+      width: 1200px;
+      margin: auto; }
+      .pin_box .mainlife .life_one ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .mainlife .life_one ul li {
+          width: 100px; }
+          .pin_box .mainlife .life_one ul li img {
+            width: 100px; }
+          .pin_box .mainlife .life_one ul li p {
+            color: #98a6a9;
+            font-size: 12px;
+            margin-top: 10px;
+            text-align: center; }
+    .pin_box .mainlife .life_two {
+      width: 400px; }
+      .pin_box .mainlife .life_two ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .mainlife .life_two ul li {
+          width: 100px; }
+          .pin_box .mainlife .life_two ul li img {
+            width: 100px; }
+          .pin_box .mainlife .life_two ul li p {
+            color: #98a6a9;
+            font-size: 12px;
+            margin-top: 10px;
+            text-align: center; }
+    .pin_box .mainlife .life_text {
+      width: 1200px;
+      margin: auto;
+      border-top: 1px dashed black; }
+      .pin_box .mainlife .life_text ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .mainlife .life_text ul li {
+          width: 100px;
+          color: #98a6a9;
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center; }
+    .pin_box .mainlife .life_text1 {
+      width: 800px; }
+      .pin_box .mainlife .life_text1 ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .mainlife .life_text1 ul li {
+          width: 100px;
+          color: #98a6a9;
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center; }
+  .pin_box .huli_box {
+    width: 1200px;
+    margin: auto;
+    background-color: white; }
+    .pin_box .huli_box .hulii {
+      width: 100px; }
+    .pin_box .huli_box .threep {
+      width: 600px; }
+      .pin_box .huli_box .threep ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .huli_box .threep ul li {
+          width: 100px; }
+          .pin_box .huli_box .threep ul li img {
+            width: 100px; }
+          .pin_box .huli_box .threep ul li p {
+            color: #98a6a9;
+            font-size: 12px;
+            margin-top: 10px;
+            text-align: center; }
+    .pin_box .huli_box .huli_text {
+      width: 800px; }
+      .pin_box .huli_box .huli_text ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .huli_box .huli_text ul li {
+          width: 100px;
+          color: #98a6a9;
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center; }
+  .pin_box .chuandai_box {
+    width: 1200px;
+    margin: auto;
+    background-color: white; }
+    .pin_box .chuandai_box .chuannn {
+      width: 100px; }
+    .pin_box .chuandai_box .chuanda {
+      width: 1200px;
+      margin: auto; }
+      .pin_box .chuandai_box .chuanda ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .chuandai_box .chuanda ul li {
+          width: 100px; }
+          .pin_box .chuandai_box .chuanda ul li img {
+            width: 100px; }
+          .pin_box .chuandai_box .chuanda ul li p {
+            color: #98a6a9;
+            font-size: 12px;
+            margin-top: 10px;
+            text-align: center; }
+    .pin_box .chuandai_box .chuantext {
+      width: 800px; }
+      .pin_box .chuandai_box .chuantext ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .chuandai_box .chuantext ul li {
+          width: 100px;
+          color: #98a6a9;
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center; }
+  .pin_box .phone_box {
+    background-color: white;
+    width: 1200px;
+    margin: auto; }
+    .pin_box .phone_box .phonee {
+      width: 100px; }
+    .pin_box .phone_box .phonee_text {
+      width: 800px; }
+      .pin_box .phone_box .phonee_text ul {
+        display: flex;
+        justify-content: space-around; }
+        .pin_box .phone_box .phonee_text ul li {
+          width: 100px;
+          color: #98a6a9;
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center; }
+
+/*# sourceMappingURL=mokuai.css.map */

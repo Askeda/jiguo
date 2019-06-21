@@ -1,0 +1,54 @@
+.change{
+    width: 300px;
+    margin: auto;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        li{
+            cursor: pointer;
+            p{
+                text-align: center;
+            }
+            .xia1{
+                 width: 100px;
+                height: 3px;
+                background-color: #fd5238;
+                display: none;
+            }
+            .xia2{
+                @extend .xia1;
+            }
+        }
+    }
+}
+
+.xin_box{
+    width: 100%;
+    background-color: #f7f7f7;
+    
+    .xin_main{
+        width: 1200px;
+        margin: auto;
+        
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                
+            }
+        }
+    }
+}
+.ddd{text-align: center;cursor: pointer;}
+.ddd1{
+    @extend .ddd;
+}
+.qqq2{
+    @extend .qqq;
+}
+.non{display: none;}
+.non1{display: none;}
+.qqq{
+    cursor: pointer;text-align: center;
+}
+.rerere{display: none;}

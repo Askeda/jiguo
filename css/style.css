@@ -1,0 +1,66 @@
+*{padding: 0px;margin: 0px;}
+li{list-style: none;}
+a{text-decoration: none;}
+/*头部*/
+.header{width: 100%;}
+.header img{vertical-align: middle;}
+.header_logo{width: 200px;margin-left: 250px;display: inline-block;}
+.header_logo img{width: 200px;}
+.nav{width: 400px;display: inline-block;margin-left: 100px;}
+.nav ul{display: flex;justify-content: space-around;}
+.nav_right{width: 120px;display: inline-block;margin-left: 300px;}
+.nav_right ul{display: flex;justify-content: space-around;}
+.li_right{border: 1px solid #ff4543;width: 40px;height: 25px;line-height: 25px;color: #ff4543;text-align: center;font-size: 13px;}
+
+/*首发试用*/
+.first{width: 100%;background-image: url(../img/original.jpg);background-repeat: no-repeat;height: 300px;}
+.xiaobei{width: 300px;margin-left: 1040px;padding-top: 47px;}
+.xiaobei p{color: white;font-size: 30px;}
+.xiaobei1{width: 350px;margin-left: 1030px;margin-top: 10px;}
+.xiaobei1 ul{display: flex;justify-content: space-around;}
+.xiaobei1 ul li{width: 100px;height: 30px;line-height: 30px;text-align: center;background-color: #f8d198;color: white;}
+.xiaobei2{width: 300px;margin-left: 1040px;margin-top: 30px; font-size: 18px;color: white;}
+.xiaobei3{width: 200px;background-color: red;text-align: center;height: 50px;line-height: 50px;color: white;margin-left: 1040px;margin-top: 30px;}
+
+/*热门试用*/
+.hot{width: 1200px;margin-left: 194px;}
+.hot_shiyong{width: 1200px;margin-left:350px;margin-top:-200px;}
+.jian_left{display: inline-block;margin-left: 194px;}
+.jian_left img{height: 90px;margin-top: 107px;margin-left: 110px;}
+.jian_right{display: inline-block;}
+.jian_right img{height: 90px;vertical-align: middle;margin-left: 1207px;margin-top: -311px;}
+
+
+.hot_shiyong ul{display: flex;justify-content: space-around;}
+.hot_shiyong ul li{}
+.hot_shiyong ul li img{width: 180px;height:150px;}
+
+.mianbao{width: 180px;/*background-image: url(../img/hot9.jpg);background-repeat: no-repeat;*/}
+.shoufa{width: 50px;background-color: red;height: 30px;line-height: 30px;text-align: center;color: white;display: block;border: 1px solid red;border-top-right-radius: 10px;border-bottom-left-radius: 10px;margin-left: 183px;position: absolute;margin-top: -154px;}
+.tiyan{width: 100px;background-color: #fbf4ca;height: 30px;line-height: 30px;text-align: center;color: #d2d0a7;display: block;border-top-right-radius: 10px;border-bottom-left-radius: 10px;margin-left: 135px;position: absolute;margin-top: -154px;}
+
+/*报告精选*/
+.bao_box{width: 100%;background-color: #f7f7f7;}
+.bao_box_nav{width: 1200px;margin: auto;}
+
+.bao_box_main{width: 1200px;margin: auto;}
+.bao_box_main ul{display: flex;justify-content: space-around;}
+
+
+/*导购精选*/
+.dao_box{width: 100%;}
+.dao_box_text{width: 1200px;margin-left: 176px;}
+.dao_box_nav{width: 1200px;margin: auto;}
+.dao_box_nav ul{display: flex;justify-content: space-around;}
+.dao_box_nav ul li{border-radius: 5px;border: 1px solid #efefef;}
+.dao_box_nav ul img{border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+/*发现酷玩*/
+.kuwan_box{width: 100%;background-color: #f7f7f7;}
+.kuwan_box_main{width: 1200px;margin: auto;}
+.kuwan_box_main ul{display: flex;justify-content: space-around;}
+.kuwan_box_main ul li{border: 1px solid #efefef;border-radius: 5px;}
+.kuwan_box_main ul img{border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+.dian_box{width: 200px;margin: auto;cursor: pointer;}
+.nn{display: none;}

@@ -1,0 +1,44 @@
+.change {
+  width: 300px;
+  margin: auto; }
+  .change ul {
+    display: flex;
+    justify-content: space-around; }
+    .change ul li {
+      cursor: pointer; }
+      .change ul li p {
+        text-align: center; }
+      .change ul li .xia1, .change ul li .xia2 {
+        width: 100px;
+        height: 3px;
+        background-color: #fd5238;
+        display: none; }
+
+.xin_box {
+  width: 100%;
+  background-color: #f7f7f7; }
+  .xin_box .xin_main {
+    width: 1200px;
+    margin: auto; }
+    .xin_box .xin_main ul {
+      display: flex;
+      justify-content: space-around; }
+
+.ddd, .ddd1 {
+  text-align: center;
+  cursor: pointer; }
+
+.non {
+  display: none; }
+
+.non1 {
+  display: none; }
+
+.qqq, .qqq2 {
+  cursor: pointer;
+  text-align: center; }
+
+.rerere {
+  display: none; }
+
+/*# sourceMappingURL=baogao.css.map */

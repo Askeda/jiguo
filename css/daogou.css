@@ -1,0 +1,99 @@
+.dao_dan {
+  width: 1200px;
+  margin: auto; }
+  .dao_dan p {
+    text-align: center;
+    font-size: 30px; }
+
+.zui {
+  width: 300px;
+  margin: auto; }
+  .zui ul {
+    display: flex;
+    justify-content: space-around; }
+    .zui ul li {
+      width: 100px; }
+      .zui ul li p {
+        color: #bebbcc;
+        text-align: center;
+        cursor: pointer; }
+      .zui ul li .xiabiao, .zui ul li .xiabiao1 {
+        width: 100px;
+        background-color: #fd5238;
+        height: 3px;
+        display: none; }
+
+.main_mm {
+  width: 100%;
+  background-color: #f7f7f7; }
+  .main_mm .dianji {
+    width: 200px;
+    margin: auto;
+    cursor: pointer; }
+    .main_mm .dianji img {
+      display: inline-block; }
+  .main_mm .dianji1 {
+    width: 100px;
+    margin: auto; }
+    .main_mm .dianji1 span {
+      cursor: pointer; }
+
+.dao_box {
+  width: 100%; }
+
+.dao_box_text {
+  width: 1200px;
+  margin-left: 176px; }
+
+.dao_box_nav {
+  width: 1200px;
+  margin: auto; }
+
+.dao_box_nav ul {
+  display: flex;
+  justify-content: space-around; }
+
+.dao_box_nav ul li {
+  border-radius: 5px;
+  border: 1px solid #efefef; }
+
+.dao_box_nav ul img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.mm {
+  display: none; }
+
+.main_mm1 {
+  display: none;
+  width: 100%;
+  background-color: #f7f7f7; }
+  .main_mm1 .dianji {
+    width: 200px;
+    margin: auto;
+    cursor: pointer; }
+    .main_mm1 .dianji img {
+      display: inline-block; }
+  .main_mm1 .dianji1 {
+    width: 100px;
+    margin: auto; }
+    .main_mm1 .dianji1 span {
+      cursor: pointer; }
+
+.mm1 {
+  display: none; }
+
+.dianji11 {
+  width: 200px;
+  margin: auto;
+  cursor: pointer; }
+  .dianji11 img {
+    display: inline-block; }
+
+.dianji111 {
+  width: 100px;
+  margin: auto; }
+  .dianji111 span {
+    cursor: pointer; }
+
+/*# sourceMappingURL=daogou.css.map */

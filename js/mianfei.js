@@ -1,0 +1,79 @@
+$(document).ready(function(){
+	$(".asd").click(function(){
+	$(".feifei").show();
+	$(this).hide();
+	$(".shouqi").show();
+	});
+		$(".shouqi").click(function(){
+			$(".feifei").hide();
+			$(this).hide();
+			$(".asd").show();
+		});
+		
+		
+		$(".quan").css("color","black");
+		
+		
+		
+		$(".dazhong").css("color","#fb532e");
+		$(".xiabiaodiv").show();
+		$(".quan").css("color","black");
+		
+		$(".quan").click(function(){
+			$(".quan").css("color","black");
+			$(".shen").css("color","#8da6ad");
+			$(".shi").css("color","#8da6ad");
+			$(".shu").css("color","#8da6ad");
+			$(".all").show();
+			$(".shenqing").hide();
+			$(".shiyongzhong").hide();
+			$(".yijieshu").hide();
+		});
+		$(".shen").click(function(){
+			$(".quan").css("color","#8da6ad");
+			$(".shen").css("color","black");
+			$(".shi").css("color","#8da6ad");
+			$(".shu").css("color","#8da6ad");
+			$(".all").hide();
+			$(".shenqing").show();
+			$(".shiyongzhong").hide();
+			$(".yijieshu").hide();
+		});
+		$(".shi").click(function(){
+			$(".quan").css("color","#8da6ad");
+			$(".shen").css("color","#8da6ad");
+			$(".shi").css("color","black");
+			$(".shu").css("color","#8da6ad");
+			$(".all").hide();
+			$(".shenqing").hide();
+			$(".shiyongzhong").show();
+			$(".yijieshu").hide();
+		});
+		$(".shu").click(function(){
+			$(".quan").css("color","#8da6ad");
+			$(".shen").css("color","#8da6ad");
+			$(".shi").css("color","#8da6ad");
+			$(".shu").css("color","black");
+			$(".all").hide();
+			$(".shenqing").hide();
+			$(".shiyongzhong").hide();
+			$(".yijieshu").show();
+		});
+		
+		$(".tiyanshi").click(function(){
+			$(".dazhong").css("color","#b1becf");
+			$(".xiabiaodiv").hide();
+			$(".dazhong_box").hide();
+			$(this).css("color","#fb532e");
+			$(".xiabiaodiv1").show();
+			$(".tizhuan").show();
+		});
+		$(".dazhong").click(function(){
+			$(".tiyanshi").css("color","#b1becf");
+			$(".xiabiaodiv1").hide();
+			$(".dazhong_box").show();
+			$(this).css("color","#fb532e");
+			$(".xiabiaodiv").show();
+			$(".tizhuan").hide();
+		});
+})

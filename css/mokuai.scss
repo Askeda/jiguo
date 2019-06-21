@@ -1,0 +1,263 @@
+                                    $size:12px;
+                                    @mixin mar{
+                                        width: 1200px;
+                                        margin: auto;
+                                    }
+                                    @mixin bor{
+                                        border: 1px solid black;
+                                    }
+                                    @mixin uii{
+                                        display: flex;
+                                        justify-content: space-around;
+                                    }
+                                    
+                                    
+                                    
+.faxina{
+   @include mar;
+    p{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.mainnav{
+    width:500px;
+    margin: auto;
+    
+    ul{
+        @include uii;
+        li{
+            
+            width: 150px;
+            p{
+                color: #bebbcc;
+                text-align: center;
+                cursor: pointer;
+            }
+            .xiabiao{
+                width: 150px;
+                background-color: #fd5238;
+                height: 3px;
+                display: none;
+            }
+            .xiabiao1{
+                @extend .xiabiao;
+            }
+            .xiabiao2{
+                @extend .xiabiao;
+            }
+        }
+    }
+}
+.kuwan_box{width: 100%;background-color: #f7f7f7;}
+.kuwan_box_main{width: 1200px;margin: auto;}
+.kuwan_box_main ul{display: flex;justify-content: space-around;}
+.kuwan_box_main ul li{border: 1px solid #efefef;border-radius: 5px;}
+.kuwan_box_main ul img{border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+.dian_box{width: 200px;margin: auto;cursor: pointer;}
+.nn{display: none;}
+.kuwan_box1{width: 100%;background-color: #f7f7f7;display: none;display: none;}
+.dian_box1{width: 200px;margin: auto;cursor: pointer;}
+
+
+.pin_box{
+    width: 100%;
+    background-color: #f7f7f7;
+    display: none;
+    .mainlife{
+        width: 1200px;
+       
+        margin: auto;
+        background-color: white;
+        
+            .life{
+              width: 100px;
+             }
+             .life_one{
+                
+                 @include mar;
+                
+                 ul{
+                     @include uii;
+                     li{
+                                     
+                         width: 100px;
+                         img{
+                             width: 100px;                            
+                         }
+                         p{
+                             color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         }
+                     }
+                 }
+             }
+             .life_two{
+                 width: 400px;
+                
+                 ul{
+                     @include uii;
+                     
+                     li{
+                         width: 100px;
+                         
+                          img{
+                             width: 100px;                            
+                         }
+                         p{
+                             color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         }
+                     }
+                 }
+             }
+             .life_text{
+                width: 1200px;
+                margin: auto;
+                border-top: 1px dashed black;
+                ul{
+                    @include uii;
+                    li{
+                        width: 100px;
+                        color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         
+                    }
+                }
+             }
+             .life_text1{
+                width: 800px;
+                ul{
+                    @include uii;
+                    li{
+                        width: 100px;
+                        color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         
+                    }
+                }
+             }
+    }
+    
+//护理
+.huli_box{
+    @include mar;
+    
+    background-color: white;
+    .hulii{
+        width: 100px;
+    }
+    .threep{
+        width: 600px;
+        ul{
+           
+            @include uii;
+            li{
+                 width: 100px;
+                    img{
+                             width: 100px;                            
+                         }
+                         p{
+                             color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         }
+            }
+        }
+    }
+    .huli_text{
+                width: 800px;
+               
+                ul{
+                    @include uii;
+                    li{
+                        width: 100px;
+                        color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         
+                    }
+                }
+             }
+}
+
+.chuandai_box{
+    @include mar;
+    
+    background-color: white;
+    .chuannn{
+        width: 100px;
+    }
+    .chuanda{
+        @include mar;
+        
+        
+                 ul{
+                     @include uii;
+                     li{
+                                     
+                         width: 100px;
+                         img{
+                             width: 100px;                            
+                         }
+                         p{
+                             color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         }
+                     }
+                 }
+    }
+    .chuantext{
+                width: 800px;
+               
+                ul{
+                    @include uii;
+                    li{
+                        width: 100px;
+                        color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         
+                    }
+                }
+             }
+}
+
+.phone_box{
+background-color: white;
+    @include mar;
+    .phonee{
+        width: 100px;
+    }
+      .phonee_text{
+                width: 800px;
+               
+                ul{
+                    @include uii;
+                    li{
+                        width: 100px;
+                        color: #98a6a9;
+                             font-size: 12px;
+                             margin-top: 10px;
+                             text-align: center;
+                         
+                    }
+                }
+             }
+}
+}

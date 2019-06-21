@@ -1,0 +1,118 @@
+                                    $size:12px;
+                                    @mixin mar{
+                                        width: 1200px;
+                                        margin: auto;
+                                    }
+                                    @mixin bor{
+                                        border: 1px solid black;
+                                    }
+                                    @mixin uii{
+                                        display: flex;
+                                        justify-content: space-around;
+                                    }
+                                    
+//导购清单
+.dao_dan{
+    @include mar;
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+.zui{
+    width: 300px;
+    margin: auto;
+    ul{
+        @include uii;
+        li{
+            width: 100px;
+            p{
+                color: #bebbcc;
+                text-align: center;
+                cursor: pointer;
+            }
+            .xiabiao{
+                width: 100px;
+                background-color: #fd5238;
+                height: 3px;
+                display: none;
+                }
+                .xiabiao1{
+                    @extend .xiabiao;
+                }
+        }
+    }
+}
+.main_mm{
+   width: 100%;
+   background-color: #f7f7f7;
+   
+.dianji{
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    img{
+        display: inline-block;
+    }
+}
+
+.dianji1{
+    width: 100px;
+    margin: auto;
+    span{
+        cursor: pointer;
+    }
+}
+
+}
+.dao_box{width: 100%;}
+.dao_box_text{width: 1200px;margin-left: 176px;}
+.dao_box_nav{width: 1200px;margin: auto;}
+.dao_box_nav ul{display: flex;justify-content: space-around;}
+.dao_box_nav ul li{border-radius: 5px;border: 1px solid #efefef;}
+.dao_box_nav ul img{border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+.mm{
+    display: none;
+}
+.main_mm1{
+    display: none;
+   width: 100%;
+   background-color: #f7f7f7;
+   
+.dianji{
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    img{
+        display: inline-block;
+    }
+}
+
+.dianji1{
+    width: 100px;
+    margin: auto;
+    span{
+        cursor: pointer;
+    }
+}
+
+}
+.mm1{
+    display: none;
+}
+.dianji11{
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    img{
+        display: inline-block;
+    }
+}
+.dianji111{
+    width: 100px;
+    margin: auto;
+    span{
+        cursor: pointer;
+    }
+}

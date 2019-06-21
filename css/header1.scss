@@ -1,0 +1,13 @@
+*{padding: 0px;margin: 0px;}
+li{list-style: none;}
+a{text-decoration: none;}
+/*头部*/
+.header{width: 100%;}
+.header img{vertical-align: middle;}
+.header_logo{width: 200px;margin-left: 250px;display: inline-block;}
+.header_logo img{width: 200px;}
+.nav{width: 400px;display: inline-block;margin-left: 100px;}
+.nav ul{display: flex;justify-content: space-around;}
+.nav_right{width: 120px;display: inline-block;margin-left: 300px;}
+.nav_right ul{display: flex;justify-content: space-around;}
+.li_right{border: 1px solid #ff4543;width: 40px;height: 25px;line-height: 25px;color: #ff4543;text-align: center;font-size: 13px;}

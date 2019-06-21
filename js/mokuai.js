@@ -1,0 +1,50 @@
+$(document).ready(function(){
+	$(".zuixinp").css("color","#fd5238");
+	$(".xiabiao").show();
+	$(".zuixinp").click(function(){
+		$(".zuixinp").css("color","#fd5238");
+		$(".zuixinp1").css("color","#bebbcc");
+		$(".zuixinp2").css("color","#bebbcc");
+		$(".xiabiao").show();
+		$(".xiabiao1").hide();
+		$(".xiabiao2").hide();
+		$(".kuwan_box").show();
+		$(".kuwan_box1").hide();
+		$(".pin_box").hide();
+	});
+		$(".zuixinp1").click(function(){
+		$(".zuixinp1").css("color","#fd5238");
+		$(".zuixinp").css("color","#bebbcc");
+		$(".zuixinp2").css("color","#bebbcc");
+		$(".xiabiao").hide();
+		$(".xiabiao1").show();
+		$(".xiabiao2").hide();
+		$(".kuwan_box").hide();
+		$(".kuwan_box1").show();
+		$(".pin_box").hide();
+
+	});
+		$(".zuixinp2").click(function(){
+		$(".zuixinp1").css("color","#bebbcc");
+		$(".zuixinp").css("color","#bebbcc");
+		$(".zuixinp2").css("color","#fd5238");
+		$(".xiabiao").hide();
+		$(".xiabiao1").hide();
+		$(".xiabiao2").show();
+		$(".kuwan_box").hide();
+		$(".kuwan_box1").hide();
+		$(".pin_box").show();
+	});
+		$(".dian").click(function(){
+	$(".nn").show();
+	$(".dian").hide();
+	$(".dian2").show();
+});
+	$(".dian2").click(function(){
+		$(".nn").hide();
+		$(".dian").show();
+		$(this).hide();
+	});
+});
+
+

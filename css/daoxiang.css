@@ -1,0 +1,15 @@
+.xiang_nav {
+  width: 1200px;
+  margin: auto; }
+  .xiang_nav p {
+    font-size: 14px;
+    color: #a5b5b5; }
+
+.xiang_box {
+  width: 1200px;
+  margin: auto; }
+  .xiang_box ul {
+    display: flex;
+    justify-content: space-around; }
+
+/*# sourceMappingURL=daoxiang.css.map */

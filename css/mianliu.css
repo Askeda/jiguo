@@ -1,0 +1,11 @@
+.mianliu_box {
+  width: 1200px;
+  margin: auto; }
+  .mianliu_box ul {
+    display: flex;
+    justify-content: space-around; }
+
+.asdd p {
+  width: 800px; }
+
+/*# sourceMappingURL=mianliu.css.map */

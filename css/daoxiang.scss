@@ -1,0 +1,32 @@
+                                    $size:12px;
+                                    @mixin mar{
+                                        width: 1200px;
+                                        margin: auto;
+                                    }
+                                    @mixin bor{
+                                        border: 1px solid black;
+                                    }
+                                    @mixin uii{
+                                        display: flex;
+                                        justify-content: space-around;
+                                    }
+                                    
+
+.xiang_nav{
+    @include mar;
+    p{
+        font-size: 14px;
+        color: #a5b5b5;
+    }
+}
+.xiang_box{
+    @include mar;
+    
+
+    ul{
+        @include uii;
+        li{
+            
+        }
+    }
+}
